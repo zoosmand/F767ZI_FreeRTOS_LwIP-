@@ -1,0 +1,13 @@
+{
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "stm32f7xx.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "led.h": "c",
+        "cmsis_os.h": "c",
+        "lwip.h": "c",
+        "stm32f7xx_hal.h": "c",
+        "stm32f7xx_hal_conf.h": "c"
+    }
+}
