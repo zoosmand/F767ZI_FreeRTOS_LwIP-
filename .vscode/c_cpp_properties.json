@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "MacOS",
+            "name": "macOS",
             "includePath": [
                 "${env:VSARM}/arm-gcc/arm-none-eabi/include/c++/10.3.1",
                 "${env:VSARM}/arm-gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi",
