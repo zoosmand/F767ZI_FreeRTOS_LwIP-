@@ -18,3 +18,10 @@ There are some pending tasks in this project that need to be completed:
 
 Feel free to contribute to this project by completing any of the pending tasks or by suggesting improvements.
 
+## Requisites
+
+- Tool chain
+    <https://developer.arm.com/downloads/-/gnu-rm>
+
+- OpenOCD
+    <https://github.com/xpack-dev-tools/openocd-xpack/releases>

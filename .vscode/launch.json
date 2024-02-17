@@ -48,7 +48,8 @@
             "armToolchainPath": "${env:VSARM}/arm-gcc/bin",
             "configFiles": [
                 "${env:SHARE}/openocd/scripts/board/st_nucleo_f7.cfg"
-            ]
+            ],
+            "showDevDebugOutput": "raw"
         },
         {
             "type": "cortex-debug",

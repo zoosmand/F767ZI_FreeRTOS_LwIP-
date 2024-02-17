@@ -9,5 +9,6 @@
         "lwip.h": "c",
         "stm32f7xx_hal.h": "c",
         "stm32f7xx_hal_conf.h": "c"
-    }
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }
