@@ -25,3 +25,8 @@ Feel free to contribute to this project by completing any of the pending tasks o
 
 - OpenOCD
     <https://github.com/xpack-dev-tools/openocd-xpack/releases>
+    <https://www.reddit.com/r/raspberrypipico/comments/t3eex5/configuring_vs_code_with_remote_openocd/>
+
+- ST-Link
+    <https://github.com/stlink-org/stlink>
+
