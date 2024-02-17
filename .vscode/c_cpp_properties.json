@@ -67,7 +67,15 @@
                 "${workspaceFolder}/Drivers/CMSIS/Include",
                 "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F7xx/Include",
                 "${workspaceFolder}/Core/Inc",
-                "${workspaceFolder}/Core/Src"
+                "${workspaceFolder}/Core/Src",
+                "${workspaceFolder}/LWIP/App",
+                "${workspaceFolder}/Drivers/STM32F7xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Middlewares/Third_Party/LwIP/src/include",
+                "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS",
+                "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/include",
+                "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1",
+                "${workspaceFolder}/LWIP/Target",
+                "${workspaceFolder}/Middlewares/Third_Party/LwIP/system"
             ],
             "defines": [
                 "DEBUG",
@@ -93,7 +101,7 @@
                 "__INT16_TYPE__=short int",
                 "__UINT16_TYPE__=short unsigned int"
             ],
-            "intelliSenseMode": "gcc-arm",
+            "intelliSenseMode": "linux-clang-arm64",
             "cStandard": "c17",
             "cppStandard": "c++17",
             "browse": {
