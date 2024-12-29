@@ -8,7 +8,23 @@
         "cmsis_os.h": "c",
         "lwip.h": "c",
         "stm32f7xx_hal.h": "c",
-        "stm32f7xx_hal_conf.h": "c"
+        "stm32f7xx_hal_conf.h": "c",
+        "__config": "c",
+        "deque": "c",
+        "memory_resource": "c",
+        "iterator": "c",
+        "locale": "c",
+        "vector": "c",
+        "*.tcc": "c",
+        "bitset": "c",
+        "functional": "c",
+        "istream": "c",
+        "ranges": "c",
+        "streambuf": "c",
+        "variant": "c",
+        "usart.h": "c",
+        "usb_otg.h": "c",
+        "ethernetif.h": "c"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }

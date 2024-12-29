@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Make Firmware macOS",
+            "label": "Make Firmware",
             "type": "shell",
             "command": "gmake -j$(sysctl -n hw.ncpu) all TARGET=vsarm_firmware GCC_PATH=${env:VSARM}/arm-gcc/bin",
             "options": {
