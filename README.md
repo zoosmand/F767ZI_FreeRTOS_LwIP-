@@ -30,3 +30,6 @@ Feel free to contribute to this project by completing any of the pending tasks o
 - ST-Link
     <https://github.com/stlink-org/stlink>
 
+- Other useful links
+    <https://community.st.com/t5/stm32-mcus/ethernet-not-working-on-stm32h7x3/ta-p/49479>
+    
