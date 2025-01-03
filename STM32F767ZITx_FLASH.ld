@@ -61,8 +61,14 @@ _Min_Stack_Size = 0x2000; /* required amount of stack */
 /* Specify the memory areas */
 MEMORY
 {
-RAM (xrw)      : ORIGIN = 0x20000000, LENGTH = 512K
-FLASH (rx)      : ORIGIN = 0x8000000, LENGTH = 2048K
+FLASH (rx)       : ORIGIN = 0x08000000, LENGTH = 2048K
+/* DTCM (xrw)       : ORIGIN = 0x20000000, LENGTH = 128K */
+/* SRAM1 (xrw)      : ORIGIN = 0x20020000, LENGTH = 368K */
+/* SRAM2 (xrw)      : ORIGIN = 0x2007C000, LENGTH = 16K */
+/* RAM (xrw)       : ORIGIN = 0x20000000, LENGTH = 498K */
+RAM (xrw)        : ORIGIN = 0x20020000, LENGTH = 370K
+Memory_B1(xrw)   : ORIGIN = 0x2007C000, LENGTH = 160
+Memory_B2(xrw)   : ORIGIN = 0x2007C0A0, LENGTH = 160
 }
 
 /* Define output sections */
@@ -184,6 +190,10 @@ SECTIONS
   }
 
   .ARM.attributes 0 : { *(.ARM.attributes) }
+  .RxDecripSection (NOLOAD) : { *(.RxDecripSection) } >Memory_B1
+  .TxDecripSection (NOLOAD) : { *(.TxDecripSection) } >Memory_B2
+
+
 }
 
 

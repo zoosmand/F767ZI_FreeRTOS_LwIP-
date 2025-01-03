@@ -1,6 +1,8 @@
 {
     "cmake.configureOnOpen": false,
     "files.associations": {
+        "*.ndjson": "jsonl",
+        "*.dbclient-js": "javascript",
         "stm32f7xx.h": "c",
         "stdlib.h": "c",
         "stdio.h": "c",
@@ -24,7 +26,13 @@
         "variant": "c",
         "usart.h": "c",
         "usb_otg.h": "c",
-        "ethernetif.h": "c"
+        "ethernetif.h": "c",
+        "__locale": "cpp",
+        "thread": "cpp",
+        "array": "cpp",
+        "span": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }

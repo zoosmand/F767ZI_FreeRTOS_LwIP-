@@ -21,15 +21,15 @@ Feel free to contribute to this project by completing any of the pending tasks o
 ## Requisites
 
 - Tool chain
-    <https://developer.arm.com/downloads/-/gnu-rm>
+   <https://developer.arm.com/downloads/-/gnu-rm>
 
 - OpenOCD
-    <https://github.com/xpack-dev-tools/openocd-xpack/releases>
-    <https://www.reddit.com/r/raspberrypipico/comments/t3eex5/configuring_vs_code_with_remote_openocd/>
+   <https://github.com/xpack-dev-tools/openocd-xpack/releases>
+   <https://www.reddit.com/r/raspberrypipico/comments/t3eex5/configuring_vs_code_with_remote_openocd/>
 
 - ST-Link
-    <https://github.com/stlink-org/stlink>
+  <https://github.com/stlink-org/stlink>
 
 - Other useful links
-    <https://community.st.com/t5/stm32-mcus/ethernet-not-working-on-stm32h7x3/ta-p/49479>
-    
+  * <https://community.st.com/t5/stm32-mcus/ethernet-not-working-on-stm32h7x3/ta-p/49479>
+  * <https://community.st.com/t5/stm32-mcus-embedded-software/linker-script-specifies-txdescripsection-gt-memory-b2-but/td-p/92317>
